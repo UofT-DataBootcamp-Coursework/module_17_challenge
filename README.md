@@ -68,7 +68,7 @@ Software: Python (libraries: pandas, numpy, pathlib, collections, sklearn, and i
 
 All four models produced the same extremely low precision scores of 0.01, implying that all four models were not precise in identifying potentially high risk customers (way too many false positives were identified)
 
-The combination over-and-under sampling model produced the highest recall score of 0.72, while the other three were between 0.66 and 0.68. A recall score of 0.72 implies that approximately 72% of high risk customers were identified by the model, which for the purposes of assess credit risk, seems a bit low considering the rammifications of more than 25% of customers defaulting on their loan repayments.
+The combination over-and-under sampling model produced the highest recall score of 0.72, while the other three were between 0.66 and 0.68. A recall score of 0.72 implies that approximately 72% of high risk customers were identified by the model, which for the purposes of assessing credit risk, seems a bit low considering the rammifications of more than 25% of customers potentially defaulting on their loan repayments.
 
 The combination over-and-under sampling model produced the lowest balanced accuracy score of 0.55, while the other three were between 0.65 and 0.66. In general, all four did not produce a sufficiently high accuracy score. 
 
