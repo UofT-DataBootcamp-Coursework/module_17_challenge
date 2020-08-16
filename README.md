@@ -66,13 +66,15 @@ Software: Python (libraries: pandas, numpy, pathlib, collections, sklearn, and i
 
 ### Conclusion
 
-All four algorithms produced the same extremely low precision scores (0.01), while the combination over-and-under sampling algorithm produced the highest recall score of 0.72, while the other three were between 0.66 and 0.68. 
+All four models produced the same extremely low precision scores of 0.01, implying that all four models were not precise in identifying potentially high risk customers (way too many false positives were identified)
 
-The accuracy score for the combination over-and-under sampling algorithm produced the lowest balanced accuracy score of 0.55, while the other three were between 0.65 and 0.66. In general, all four did not produce a sufficiently high accuracy score. 
+The combination over-and-under sampling model produced the highest recall score of 0.72, while the other three were between 0.66 and 0.68. A recall score of 0.72 implies that approximately 72% of high risk customers were identified by the model, which for the purposes of assess credit risk, seems a bit low considering the rammifications of more than 25% of customers defaulting on their loan repayments.
 
-With credit ratings, it is more important for a model to be more precise than it is to be more sensitive. When attempting to forecast who is at a higher risk, it is better to have the predicted high risk customers that are more likely to be truely high risk customers identified rather than cast a larger net and capture an abundance of false positives (assuming there are no additional screening measures used to verify the results of the model). With the latter, if you incorrectly classify a potential customer as high risk when they are not, you would be jeopardizing the loan agreement as the customer may determine they are not high risk and would take their business elsewhere. 
+The combination over-and-under sampling model produced the lowest balanced accuracy score of 0.55, while the other three were between 0.65 and 0.66. In general, all four did not produce a sufficiently high accuracy score. 
 
-I would not recommend any of the four tested approaches as each one produced an extremely low precision score, the highest recall score was only 0.72 implying over a quarter of those who would be considered high risk are not identified, and all their respective balanced accuracy scores where not sufficiently high enough. 
+With credit ratings, it is important for a model to strike a balance between precision and recall, with a bit more empahsis on its ability to be more precise than it is to be more sensitive. When attempting to forecast who is at a higher risk, it is better to have the predicted high risk customers that are more likely to be truely high risk customers identified rather than cast a larger net and capture an abundance of false positives (assuming there are no additional screening measures used to verify the results of the model). With the latter, if you incorrectly classify a potential customer as high risk when they are not, you would be jeopardizing the loan agreement as the customer may determine they are not high risk and would take their business elsewhere. 
+
+I would not recommend any of the four tested models as each one produced an extremely low precision score, the highest recall score was only 0.72 implying over a quarter of those who would be considered high risk are not identified, and all their respective balanced accuracy scores where not sufficiently high enough. 
 
 ## Report completed by:
 
