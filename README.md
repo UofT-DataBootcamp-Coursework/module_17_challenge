@@ -21,6 +21,7 @@ Software: Python (libraries: pandas, numpy, pathlib, collections, sklearn, and i
 **Balanced Accuracy Score =** 0.65
 
 **Classification Report**
+
 ![](images/nro.PNG)
 
 **Precision Score =**
@@ -32,6 +33,7 @@ Software: Python (libraries: pandas, numpy, pathlib, collections, sklearn, and i
 **Balanced Accuracy Score =** 0.66
 
 **Classification Report**
+
 ![](images/SMOTE.PNG)
 
 **Precision Score =**
@@ -43,6 +45,7 @@ Software: Python (libraries: pandas, numpy, pathlib, collections, sklearn, and i
 **Balanced Accuracy Score =** 0.66
 
 **Classification Report**
+
 ![](images/under.PNG)
 
 **Precision Score =**
@@ -54,6 +57,7 @@ Software: Python (libraries: pandas, numpy, pathlib, collections, sklearn, and i
 **Balanced Accuracy Score =** 0.55
 
 **Classification Report**
+
 ![](images/combo.PNG)
 
 **Precision Score =**
